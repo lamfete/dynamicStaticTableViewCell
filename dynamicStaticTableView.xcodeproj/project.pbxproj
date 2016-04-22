@@ -14,6 +14,8 @@
 		F0C157F71CC7C1CF0025BD6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0C157F51CC7C1CF0025BD6D /* LaunchScreen.storyboard */; };
 		F0C158021CC7C1D20025BD6D /* dynamicStaticTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C158011CC7C1D20025BD6D /* dynamicStaticTableViewTests.swift */; };
 		F0C1580D1CC7C1D20025BD6D /* dynamicStaticTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1580C1CC7C1D20025BD6D /* dynamicStaticTableViewUITests.swift */; };
+		F0C1581B1CC7C5410025BD6D /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1581A1CC7C5410025BD6D /* ProductTableViewCell.swift */; };
+		F0C1581D1CC7DE010025BD6D /* staticTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C1581C1CC7DE010025BD6D /* staticTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F0C158081CC7C1D20025BD6D /* dynamicStaticTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dynamicStaticTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C1580C1CC7C1D20025BD6D /* dynamicStaticTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamicStaticTableViewUITests.swift; sourceTree = "<group>"; };
 		F0C1580E1CC7C1D20025BD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C1581A1CC7C5410025BD6D /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		F0C1581C1CC7DE010025BD6D /* staticTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = staticTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				F0C157F31CC7C1CF0025BD6D /* Assets.xcassets */,
 				F0C157F51CC7C1CF0025BD6D /* LaunchScreen.storyboard */,
 				F0C157F81CC7C1CF0025BD6D /* Info.plist */,
+				F0C1581A1CC7C5410025BD6D /* ProductTableViewCell.swift */,
+				F0C1581C1CC7DE010025BD6D /* staticTableViewCell.xib */,
 			);
 			path = dynamicStaticTableView;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 				F0C157F71CC7C1CF0025BD6D /* LaunchScreen.storyboard in Resources */,
 				F0C157F41CC7C1CF0025BD6D /* Assets.xcassets in Resources */,
 				F0C157F21CC7C1CF0025BD6D /* Main.storyboard in Resources */,
+				F0C1581D1CC7DE010025BD6D /* staticTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			files = (
 				F0C157EF1CC7C1CE0025BD6D /* ViewController.swift in Sources */,
 				F0C157ED1CC7C1CE0025BD6D /* AppDelegate.swift in Sources */,
+				F0C1581B1CC7C5410025BD6D /* ProductTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
